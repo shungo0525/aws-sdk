@@ -1,19 +1,30 @@
-//
-//  ViewController.swift
-//  aws-sdk
-//
-//  Created by SHUNGO on 2020/12/31.
-//
-
 import UIKit
+import AWSDynamoDB
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        fetchDynamoDBTableName()
     }
+    
+    private func fetchDynamoDBTableName() {
+        let dynamoDB = AWSDynamoDB.default()
+        let listTableInput = AWSDynamoDBListTablesInput()
+        dynamoDB.listTables(listTableInput!).continueWith { (task:AWSTask<AWSDynamoDBListTablesOutput>) -> Any? in
+            if let error = task.error as? NSError {
+            print("Error occurred: \(error)")
+                return nil
+            }
 
+            let listTablesOutput = task.result
 
+            for tableName in listTablesOutput!.tableNames! {
+                print("\(tableName)")
+            }
+
+            return nil
+        }
+    }
 }
-

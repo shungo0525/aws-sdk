@@ -1,0 +1,20 @@
+PODS:
+  - AWSCore (2.21.0)
+  - AWSDynamoDB (2.21.0):
+    - AWSCore (= 2.21.0)
+
+DEPENDENCIES:
+  - AWSDynamoDB
+
+SPEC REPOS:
+  trunk:
+    - AWSCore
+    - AWSDynamoDB
+
+SPEC CHECKSUMS:
+  AWSCore: 878e7726c80e2b5494b77c9bb5e7a059d10994f0
+  AWSDynamoDB: f44a55d308cf990ba0be2f029f18c15c9c878c89
+
+PODFILE CHECKSUM: eff1fa760e9a127c6305e37b1680d6f9e8f1cc3c
+
+COCOAPODS: 1.10.0
