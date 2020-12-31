@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		583DBE23259D78EB00912235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583DBE22259D78EB00912235 /* AppDelegate.swift */; };
+		583DBE25259D78EB00912235 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583DBE24259D78EB00912235 /* SceneDelegate.swift */; };
+		583DBE27259D78EB00912235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583DBE26259D78EB00912235 /* ViewController.swift */; };
+		583DBE2A259D78EB00912235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 583DBE28259D78EB00912235 /* Main.storyboard */; };
+		583DBE2C259D78EE00912235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 583DBE2B259D78EE00912235 /* Assets.xcassets */; };
+		583DBE2F259D78EE00912235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 583DBE2D259D78EE00912235 /* LaunchScreen.storyboard */; };
+		583DBE3A259D78EE00912235 /* aws_sdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583DBE39259D78EE00912235 /* aws_sdkTests.swift */; };
+		583DBE45259D78EE00912235 /* aws_sdkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583DBE44259D78EE00912235 /* aws_sdkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		583DBE36259D78EE00912235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 583DBE17259D78EB00912235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 583DBE1E259D78EB00912235;
+			remoteInfo = "aws-sdk";
+		};
+		583DBE41259D78EE00912235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 583DBE17259D78EB00912235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 583DBE1E259D78EB00912235;
+			remoteInfo = "aws-sdk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		583DBE1F259D78EB00912235 /* aws-sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aws-sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		583DBE22259D78EB00912235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		583DBE24259D78EB00912235 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		583DBE26259D78EB00912235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		583DBE29259D78EB00912235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		583DBE2B259D78EE00912235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		583DBE2E259D78EE00912235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		583DBE30259D78EE00912235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		583DBE35259D78EE00912235 /* aws-sdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aws-sdkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		583DBE39259D78EE00912235 /* aws_sdkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aws_sdkTests.swift; sourceTree = "<group>"; };
+		583DBE3B259D78EE00912235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		583DBE40259D78EE00912235 /* aws-sdkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aws-sdkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		583DBE44259D78EE00912235 /* aws_sdkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aws_sdkUITests.swift; sourceTree = "<group>"; };
+		583DBE46259D78EE00912235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		583DBE1C259D78EB00912235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		583DBE32259D78EE00912235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		583DBE3D259D78EE00912235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		583DBE16259D78EB00912235 = {
+			isa = PBXGroup;
+			children = (
+				583DBE21259D78EB00912235 /* aws-sdk */,
+				583DBE38259D78EE00912235 /* aws-sdkTests */,
+				583DBE43259D78EE00912235 /* aws-sdkUITests */,
+				583DBE20259D78EB00912235 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		583DBE20259D78EB00912235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				583DBE1F259D78EB00912235 /* aws-sdk.app */,
+				583DBE35259D78EE00912235 /* aws-sdkTests.xctest */,
+				583DBE40259D78EE00912235 /* aws-sdkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		583DBE21259D78EB00912235 /* aws-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				583DBE22259D78EB00912235 /* AppDelegate.swift */,
+				583DBE24259D78EB00912235 /* SceneDelegate.swift */,
+				583DBE26259D78EB00912235 /* ViewController.swift */,
+				583DBE28259D78EB00912235 /* Main.storyboard */,
+				583DBE2B259D78EE00912235 /* Assets.xcassets */,
+				583DBE2D259D78EE00912235 /* LaunchScreen.storyboard */,
+				583DBE30259D78EE00912235 /* Info.plist */,
+			);
+			path = "aws-sdk";
+			sourceTree = "<group>";
+		};
+		583DBE38259D78EE00912235 /* aws-sdkTests */ = {
+			isa = PBXGroup;
+			children = (
+				583DBE39259D78EE00912235 /* aws_sdkTests.swift */,
+				583DBE3B259D78EE00912235 /* Info.plist */,
+			);
+			path = "aws-sdkTests";
+			sourceTree = "<group>";
+		};
+		583DBE43259D78EE00912235 /* aws-sdkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				583DBE44259D78EE00912235 /* aws_sdkUITests.swift */,
+				583DBE46259D78EE00912235 /* Info.plist */,
+			);
+			path = "aws-sdkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		583DBE1E259D78EB00912235 /* aws-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 583DBE49259D78EE00912235 /* Build configuration list for PBXNativeTarget "aws-sdk" */;
+			buildPhases = (
+				583DBE1B259D78EB00912235 /* Sources */,
+				583DBE1C259D78EB00912235 /* Frameworks */,
+				583DBE1D259D78EB00912235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "aws-sdk";
+			productName = "aws-sdk";
+			productReference = 583DBE1F259D78EB00912235 /* aws-sdk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		583DBE34259D78EE00912235 /* aws-sdkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 583DBE4C259D78EE00912235 /* Build configuration list for PBXNativeTarget "aws-sdkTests" */;
+			buildPhases = (
+				583DBE31259D78EE00912235 /* Sources */,
+				583DBE32259D78EE00912235 /* Frameworks */,
+				583DBE33259D78EE00912235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				583DBE37259D78EE00912235 /* PBXTargetDependency */,
+			);
+			name = "aws-sdkTests";
+			productName = "aws-sdkTests";
+			productReference = 583DBE35259D78EE00912235 /* aws-sdkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		583DBE3F259D78EE00912235 /* aws-sdkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 583DBE4F259D78EE00912235 /* Build configuration list for PBXNativeTarget "aws-sdkUITests" */;
+			buildPhases = (
+				583DBE3C259D78EE00912235 /* Sources */,
+				583DBE3D259D78EE00912235 /* Frameworks */,
+				583DBE3E259D78EE00912235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				583DBE42259D78EE00912235 /* PBXTargetDependency */,
+			);
+			name = "aws-sdkUITests";
+			productName = "aws-sdkUITests";
+			productReference = 583DBE40259D78EE00912235 /* aws-sdkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		583DBE17259D78EB00912235 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					583DBE1E259D78EB00912235 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					583DBE34259D78EE00912235 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 583DBE1E259D78EB00912235;
+					};
+					583DBE3F259D78EE00912235 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 583DBE1E259D78EB00912235;
+					};
+				};
+			};
+			buildConfigurationList = 583DBE1A259D78EB00912235 /* Build configuration list for PBXProject "aws-sdk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 583DBE16259D78EB00912235;
+			productRefGroup = 583DBE20259D78EB00912235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				583DBE1E259D78EB00912235 /* aws-sdk */,
+				583DBE34259D78EE00912235 /* aws-sdkTests */,
+				583DBE3F259D78EE00912235 /* aws-sdkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		583DBE1D259D78EB00912235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583DBE2F259D78EE00912235 /* LaunchScreen.storyboard in Resources */,
+				583DBE2C259D78EE00912235 /* Assets.xcassets in Resources */,
+				583DBE2A259D78EB00912235 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		583DBE33259D78EE00912235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		583DBE3E259D78EE00912235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		583DBE1B259D78EB00912235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583DBE27259D78EB00912235 /* ViewController.swift in Sources */,
+				583DBE23259D78EB00912235 /* AppDelegate.swift in Sources */,
+				583DBE25259D78EB00912235 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		583DBE31259D78EE00912235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583DBE3A259D78EE00912235 /* aws_sdkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		583DBE3C259D78EE00912235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583DBE45259D78EE00912235 /* aws_sdkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		583DBE37259D78EE00912235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 583DBE1E259D78EB00912235 /* aws-sdk */;
+			targetProxy = 583DBE36259D78EE00912235 /* PBXContainerItemProxy */;
+		};
+		583DBE42259D78EE00912235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 583DBE1E259D78EB00912235 /* aws-sdk */;
+			targetProxy = 583DBE41259D78EE00912235 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		583DBE28259D78EB00912235 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				583DBE29259D78EB00912235 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		583DBE2D259D78EE00912235 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				583DBE2E259D78EE00912235 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		583DBE47259D78EE00912235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		583DBE48259D78EE00912235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		583DBE4A259D78EE00912235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z4D6J74Q9;
+				INFOPLIST_FILE = "aws-sdk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.shungo0525.aws-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		583DBE4B259D78EE00912235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z4D6J74Q9;
+				INFOPLIST_FILE = "aws-sdk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.shungo0525.aws-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		583DBE4D259D78EE00912235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z4D6J74Q9;
+				INFOPLIST_FILE = "aws-sdkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.shungo0525.aws-sdkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aws-sdk.app/aws-sdk";
+			};
+			name = Debug;
+		};
+		583DBE4E259D78EE00912235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z4D6J74Q9;
+				INFOPLIST_FILE = "aws-sdkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.shungo0525.aws-sdkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aws-sdk.app/aws-sdk";
+			};
+			name = Release;
+		};
+		583DBE50259D78EE00912235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z4D6J74Q9;
+				INFOPLIST_FILE = "aws-sdkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.shungo0525.aws-sdkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "aws-sdk";
+			};
+			name = Debug;
+		};
+		583DBE51259D78EE00912235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z4D6J74Q9;
+				INFOPLIST_FILE = "aws-sdkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.shungo0525.aws-sdkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "aws-sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		583DBE1A259D78EB00912235 /* Build configuration list for PBXProject "aws-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				583DBE47259D78EE00912235 /* Debug */,
+				583DBE48259D78EE00912235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		583DBE49259D78EE00912235 /* Build configuration list for PBXNativeTarget "aws-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				583DBE4A259D78EE00912235 /* Debug */,
+				583DBE4B259D78EE00912235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		583DBE4C259D78EE00912235 /* Build configuration list for PBXNativeTarget "aws-sdkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				583DBE4D259D78EE00912235 /* Debug */,
+				583DBE4E259D78EE00912235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		583DBE4F259D78EE00912235 /* Build configuration list for PBXNativeTarget "aws-sdkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				583DBE50259D78EE00912235 /* Debug */,
+				583DBE51259D78EE00912235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 583DBE17259D78EB00912235 /* Project object */;
+}
