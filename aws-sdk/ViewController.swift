@@ -7,6 +7,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         fetchDynamoDBTableName()
+        fetchDynamoDBData()
     }
     
     private func fetchDynamoDBTableName() {
@@ -25,6 +26,20 @@ class ViewController: UIViewController {
             }
 
             return nil
+        }
+    }
+    
+    private func fetchDynamoDBData() {
+        let dynamoDBObjectMapper = AWSDynamoDBObjectMapper.default()
+        let scanExpression = AWSDynamoDBScanExpression()
+        dynamoDBObjectMapper.scan(User.self, expression: scanExpression).continueWith() { (task:AWSTask<AWSDynamoDBPaginatedOutput>!) -> Void in
+            
+            guard let items = task.result?.items as? [User] else { return }
+            if let error = task.error as NSError? {
+                print("The request failed. Error: \(error)")
+                return
+            }
+            print(items)
         }
     }
 }

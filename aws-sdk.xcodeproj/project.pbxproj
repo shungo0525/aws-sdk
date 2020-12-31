@@ -14,6 +14,7 @@
 		583DBE2C259D78EE00912235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 583DBE2B259D78EE00912235 /* Assets.xcassets */; };
 		583DBE2F259D78EE00912235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 583DBE2D259D78EE00912235 /* LaunchScreen.storyboard */; };
 		583DBE68259D7D9200912235 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583DBE67259D7D9200912235 /* Constants.swift */; };
+		583DBE6D259DA98A00912235 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583DBE6C259DA98A00912235 /* User.swift */; };
 		E63A3B11CD8A066C9A7E2015 /* Pods_aws_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83118BD7C45C46673089203F /* Pods_aws_sdk.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		583DBE35259D78EE00912235 /* aws-sdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aws-sdkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		583DBE40259D78EE00912235 /* aws-sdkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aws-sdkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		583DBE67259D7D9200912235 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		583DBE6C259DA98A00912235 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		83118BD7C45C46673089203F /* Pods_aws_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aws_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 				583DBE2D259D78EE00912235 /* LaunchScreen.storyboard */,
 				583DBE30259D78EE00912235 /* Info.plist */,
 				583DBE67259D7D9200912235 /* Constants.swift */,
+				583DBE6C259DA98A00912235 /* User.swift */,
 			);
 			path = "aws-sdk";
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				583DBE27259D78EB00912235 /* ViewController.swift in Sources */,
 				583DBE23259D78EB00912235 /* AppDelegate.swift in Sources */,
 				583DBE25259D78EB00912235 /* SceneDelegate.swift in Sources */,
+				583DBE6D259DA98A00912235 /* User.swift in Sources */,
 				583DBE68259D7D9200912235 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
